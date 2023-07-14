@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.resizable__div {
+  height: 100vh;
+  display: flex;
+  gap: 5px;
+  cursor: col-resize;
+}
+
+.resizable__div div {
+  height: 100%;
+  width: 50vw;
+  cursor: initial;
+  background: #4fc3f7;
+}
+
+.resizable__div div.large {
+  background: #03a9f4;
+}
